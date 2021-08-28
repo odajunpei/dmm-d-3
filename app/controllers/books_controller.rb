@@ -39,7 +39,7 @@ class BooksController < ApplicationController
     @user = @book_find.user
     @book = Book.new
     @users = User.all
-
+    @book_comment = BookComment.new
   end
 
  def update
